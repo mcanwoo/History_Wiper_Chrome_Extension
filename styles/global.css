@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* thanks to boxtuffs.com for the CSS. The JS was modified */
+
+::selection {
+    background-color: #55595c;
+    color: #fff;
+    text-shadow: 0 1px 0 #000;
+}
+
+@font-face {
+	font-family: 'BebasNeueRegular';
+	src: url('BebasNeue-webfont.eot');
+	src: local('?'), url('BebasNeue-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* { 
+	padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0px;
+    padding: 15px 0px;
+    text-align: center;
+    background: #dfdcf0;
+    text-shadow: 0  1px 0 #dfdbf2;
+	color:#807d98;
+	width:500px;
+}
+
+a{
+	text-decoration:none;
+}
+ 
+h1 {
+	color:#807d98;
+	font: bold 13px/19px Arial, Helvetica, san serif;
+	margin-bottom:15px;
+}
+
+h2 {
+	margin:0;
+	padding:0;
+	color:#8c89a4;
+	font:30px/74px "BebasNeueRegular", Helvetica, Arial, sans-serif;
+	text-align:left;
+	margin-left:15px;
+	text-shadow: 0 -1px 0 #1b1929;
+	-webkit-transition:all .2s ease-out;
+	-o-transition:all .2s ease-out;
+}
+
+.item, .button {
+	width:80%;
+	height:66px;
+	position:relative;
+	margin:0 auto;
+	margin-bottom:30px;
+	border:1px solid #07060a;
+	background: -webkit-gradient(linear, 0 bottom, 0 top, from(#2a2833 ), to(#464451));
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+	-webkit-box-shadow:inset 0 1px 0 #62616c, 0 0 6px #292739;
+    box-shadow: inset 0 1px 0 #62616c, 0 0 6px #292739;
+}
+
+.item:hover h2, .button:hover h2 {
+	color:#C9D0D9;
+}
+
+.switcher {
+	list-style:none;
+	padding:1px;
+	position:absolute;
+	right:8px;
+	top:17px;
+	background:#413F4A;
+	-webkit-border-radius: 13px;
+    border-radius: 13px;
+}
+
+.switcher li {
+	float:left;
+}
+
+.switcher li a, .button a span {
+	font:13px/30px "BebasNeueRegular", Helvetica, Arial, sans-serif;
+	text-shadow: 0 -1px 0 #1b1929;
+	color:#aeabc9;
+	background:#5ad0ab;
+	display:block;
+	padding:0 13px;
+	height:27px;
+	border:1px solid #201e27;
+	background: -webkit-gradient(linear, 0 bottom, 0 top, from(#33313e ), to(#514f5d));
+	-webkit-box-shadow:inset 0 1px 0 #6B6974 ;
+    box-shadow: inset 0 1px 0 #6B6974 ;
+	-webkit-transition:all .2s ease-out;
+	-o-transition:all .2s ease-out;
+}
+
+li:first-child a {
+	border-right:none;
+	padding-left:15px;
+	-webkit-border-radius: 13px 0 0 13px;
+    border-radius:13px 0 0 13px;
+}
+
+li:last-child a {
+	-webkit-border-radius: 0 13px 13px 0;
+    border-radius:0 13px 13px 0;
+}
+
+li a:hover, .button a:hover span {
+	background: -webkit-gradient(linear, 0 bottom, 0 top, from(#383643 ), to(#6c6a78));
+}
+
+.switcher li.active a, .button a:active span {
+	color:#fff;
+	text-shadow:0 1px 1px #000;
+	background: -webkit-gradient(linear, 0 bottom, 0 top, from(#3d3b47 ), to(#24222b));
+	-webkit-box-shadow:inset 0 1px 1px #17161c ;
+    box-shadow: inset 0 1px 1px #17161c ;
+}
+
+.button a {
+	position:absolute;
+	right:8px;
+	top:17px;    
+}
+
+.button a span {
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+}
+
+#clearAllHistory {
+    -webkit-transition: all 0.2s ease-out;
+    color: #807D98;
+    font: normal normal normal 12px/normal Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+#clearAllHistory:hover {
+    color: #27896a;
+}
+
+#clearAllHistory:active {
+    color: red;
+}
