@@ -24,10 +24,10 @@ body {
     margin: 0px;
     padding: 15px 0px;
     text-align: center;
-    background: #dfdcf0;
+    background: #ffffff;
     text-shadow: 0  1px 0 #dfdbf2;
-	color:#807d98;
-	width:500px;
+	color:#ffffff;
+	width:400px;
 }
 
 a{
@@ -59,7 +59,7 @@ h2 {
 	margin:0 auto;
 	margin-bottom:30px;
 	border:1px solid #07060a;
-	background: -webkit-gradient(linear, 0 bottom, 0 top, from(#2a2833 ), to(#464451));
+	background: -webkit-gradient(linear, 0 bottom, 0 top, from(#ff6666), to(#ff0000));
 	-webkit-border-radius: 5px;
     border-radius: 5px;
 	-webkit-box-shadow:inset 0 1px 0 #62616c, 0 0 6px #292739;
@@ -76,7 +76,7 @@ h2 {
 	position:absolute;
 	right:8px;
 	top:17px;
-	background:#413F4A;
+	background:#1a1aff;
 	-webkit-border-radius: 13px;
     border-radius: 13px;
 }
@@ -114,7 +114,7 @@ li:last-child a {
 }
 
 li a:hover, .button a:hover span {
-	background: -webkit-gradient(linear, 0 bottom, 0 top, from(#383643 ), to(#6c6a78));
+	background: -webkit-gradient(linear, 0 bottom, 0 top, from(#9900cc), to(#6c6a78));
 }
 
 .switcher li.active a, .button a:active span {
