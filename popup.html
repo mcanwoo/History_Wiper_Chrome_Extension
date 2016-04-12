@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+   
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- Thanks to boxtuffs.com for the CSS and Navdeep Raj for the extension icon dezinerfolio.com -->
+
     <link rel="stylesheet" href="styles/global.css" type="text/css" charset="utf-8" />
     <script type="text/javascript" charset="utf-8" src="scripts/jquery-1.4.4.js"></script>
     <script type="text/javascript" charset="utf-8" src="scripts/popup.js"></script>
-    <!-- Thanks to boxtuffs.com for the CSS and Navdeep Raj for the extension icon dezinerfolio.com -->
 </head>
 <body>
     <div id="wrap"> 
@@ -15,6 +25,23 @@
     			<li><a href="#" title="Off" rel="0">OFF</a></li>
     		</ul>
     	</div>
+         <div class="col-lg-4">
+        <div class="input-group">
+          <input type="text" id="word"  class="form-control" placeholder="Input your customize keywords">
+          <span class="input-group-btn">
+            <button id="add" class="btn btn-default" type="button">Add!</button>
+          </span>
+        </div><!-- /input-group -->
+        <br>
+        <div>
+            <span class="input-group-btn">
+                <button id="allWords" class="btn btn-primary" type="button">show all words</button>
+            </span>
+            <span class="input-group-btn">
+                <button id="customizeWords" class="btn btn-success" type="button">show your customize words</button>
+            </span>
+        </div>
+      </div><!-- /.col-lg-6 -->
     </div>
 </body>
 </html>

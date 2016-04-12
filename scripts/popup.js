@@ -9,6 +9,8 @@ $(document).ready(function() {
 		act.parent().children('li').removeClass('active').end();
         act.addClass('active');	
         localStorage[id] = act.find('a:first').attr('rel');
+
+        console.log("localStorage: " + localStorage);
         
         if (id == 'stopRecording' && localStorage[id] == 1) {
             bgp.updateBadge('green', 'on');
@@ -21,7 +23,7 @@ $(document).ready(function() {
         var item = $(this);
         var savedValue = localStorage[item.attr('id')];
 
-        if (savedValue != undefined) {
+        if (savedValue !== undefined) {
             item.find('li').removeClass('active');
             item.find('a[rel="' + savedValue + '"]').parent().addClass('active');
         }
@@ -30,5 +32,18 @@ $(document).ready(function() {
     $('#clearAllHistory').click(function(e) {
         e.preventDefault();
         chrome.history.deleteAll(function() {});
+    });
+
+
+    $('#add').click(function() {
+        bgp.saveChanges($('#word').val());
+    });
+
+    $('#allWords').click(function() {
+        alert(blackList);
+    });
+
+    $('#customizeWords').click(function() {
+        alert(localStorage.blackList);
     });
 });
