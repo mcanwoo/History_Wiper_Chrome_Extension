@@ -1,4 +1,4 @@
-if (localStorage.stopRecording == undefined) {
+if (localStorage.stopRecording === undefined) {
     localStorage.stopRecording = 1;
 }
 
@@ -8,9 +8,9 @@ if (localStorage.stopRecording == 1) {
     updateBadge('red', 'off');
 }
 
-localStorage.blackList = ['hentai'];
+localStorage.blackList = ['sohu'];
 
-var cus = localStorage
+var cus = localStorage;
 
 var blackList = ["xvideos", "xhamster", "pornhub", "xnxx", "redtube", "youporn",    "tube8", "youjizz", "hardsextube",  "beeg", "motherless", "drtuber", "nuvid", "pornerbros", "spankwire", "keezmovies",  "sunporno", 
 "porn", "4tube", "alphaporno", "xtube", "pornoxo", "yobt", "tnaflix", "pornsharia", "brazzers", "extremetube", "slutload", "fapdu", "empflix",  "alotporn", "vid2c", "Shufuni", "cliphunter",   "xxxbunker",    "madthumbs", "deviantclip", "twilightsex",  "pornhost", "fux",  "jizzhut",  "spankbang",    "eporner",  "orgasm",   "yuvutu",   "kporno",   "definebabe",   "secret.shooshtime",    "mofosex",  "hotgoo",   "submityourflicks", "xxx",  "bigtits",  "media.xxxaporn",   "bonertube",    "userporn", "jizzonline",   "pornotube",    "fookgle",  "free18.net", "tub99",  "nonktube", "mastishare",   "tjoob",    "rude", "bustnow",  "pornrabbit",   "pornative",    "sluttyred",    "boysfood", "moviefap", "lubetube", "submityourtapes",  "megafilex", "hdpornstar",  "al4a", "stileproject", "xogogo",   "filthyrx", "jizzbo",   "5ilthy",   "91porn",   "lesbianpornvideos",    "eroxia",   "iyottube", "yourfreeporn.us", "sexoasis",  "fucktube", "pornomovies",  "clearclips",   "moviesand",    "tubixe",   "pornjog",  "sextv1.pl", "desihoes", "pornupload",  "kosimak",  "videocasalinghi",  "lubeyourtube", "freudbox", "moviesguy",    "motherofporn", "141tube",  "my18tube", "bigupload", "xvds",    "fastjizz", "tubeland", "ultimatedesi.net", "teenporntube", "tubave",   "afunnysite",   "sexe911",  "megaporn", "porntitan", "pornheed", "youhot.gr", "videolovesyou",  "onlymovies",   "hdporn.net", "adultvideodump", "suzisporn", "xfilmes.tv", "pornwall",  "silverdaddiestube",    "sextube.sweetcollegegirls",    "ipadporn", "youporns.org", "movietitan",   "yaptube",  "jugy", "chumleaf", "panicporn", "milfporntube",    "timtube",  "wetpussy", "whoreslag",    "xfapzap",  "xvideohost",   "tuberip",  "dirtydirtyangels", "bigerotica",   "pk5.net", "theamateurzone.info", "triniporn.org", "youbunny",  "isharemybitch", "morningstarclub", "sexkate",  "kuntfutube",   "porncor",  "thegootube",   "tubeguild",    "fuckuh",   "tube.smoder",  "zuzandra", "nextdoordolls",    "myjizztube",   "homesexdaily", "thetend",  "yourpornjizz", "tgirls",   "pornwaiter",   "pornhub.pl",   "nurglestube",  "brazzershdtube",   "upthevideo",   "sexzworld",    "cuntest",  "ahtube",   "free2peek", "freeamatube", "thexxxtube.net", "yazum",  "tubesexes", "pornload",    "vankoi",   "dailee",   "ejason21", "openpunani",   "porntubexl.nl", "scafy",   "bangbull", "vidxnet",  "yteenporn",    "tubethumbs",   "faptv",    "nasty8",   "maxjizztube",  "pornunder",    "24h-porn.net", "xclip.tv", "jerkersworld", "desibomma",    "jizzbox",  "theyxxx",  "bonkwire", "PornTelecast", "pornsitechoice",   "yporn.tv", "girlsongirlstube", "famouspornstarstube",  "sexfans.org", "youpornxl", "rudeshare", "efuckt",  "koostube", "amateursex",   "moviegator",   "cobramovies",  "cantoot",  "yourhottube",  "teentube18",   "youxclip", "flicklife",    "nastyrat.tv", "freepornfox",   "freeadultwatch",   "fucked.tv", "sextube.si", "pornrater", "wheresmygf", "xfanny", "pornorake",    "untouched.tv", "guppyx", "mylivesex.tv", "pervaliscious",  
