@@ -33,6 +33,7 @@ chrome.history.onVisited.addListener(function(historyItem) {
             }
         }
     	if(porn && localStorage.stopRecording == 1) {
+            updateBadge('yellow', 'deleted');
         	  chrome.history.deleteUrl({ "url": historyItem.url });
               var callback = function () {
                 console.log("delete browering ");
@@ -45,6 +46,9 @@ chrome.history.onVisited.addListener(function(historyItem) {
                 "history": true,
               }, callback);
     	}
+      else if (!porn && localStorage.stopRecording == 1) {
+        updateBadge('green', 'on');
+      }
 
     });
 });
@@ -64,7 +68,8 @@ chrome.history.onVisited.addListener(function(historyItem) {
 function updateBadge(color, text) {
     var backgrounds = {
         "green": [50, 199, 80, 160],
-        "red": [220, 27, 37, 160]
+        "red": [220, 27, 37, 160],
+        "yellow": [255, 255, 0, 160]
     };
     
     chrome.browserAction.setBadgeBackgroundColor({ "color": backgrounds[color] });
